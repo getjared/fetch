@@ -1,0 +1,27 @@
+
+
+                              fetch.c
+                         <my personal fetch>
+
+features:
+• x11
+• fast and simple
+
+
+§ installation
+git clone https://github.com/getjared/fetch.git
+cd fetch
+make
+sudo make install
+
+
+§ dependencies
+
+• c compiler (gcc or clang)
+• make
+• x11 libraries and headers (xlib)
+
+
+§ quick-start
+
+just fetch from anywhere. .
