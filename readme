@@ -9,6 +9,7 @@ features:
 
 
 § installation
+
 git clone https://github.com/getjared/fetch.git
 cd fetch
 make
@@ -20,6 +21,8 @@ sudo make install
 • c compiler (gcc or clang)
 • make
 • x11 libraries and headers (xlib)
+
+• fonts used - sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 
 
 § quick-start
