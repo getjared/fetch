@@ -39,8 +39,8 @@ int main() {
     char wm_info[MAX_OUTPUT_LEN], shell_info[MAX_OUTPUT_LEN], linux_info[MAX_OUTPUT_LEN], res_info[MAX_OUTPUT_LEN];
     snprintf(wm_info, MAX_OUTPUT_LEN, "%s%swm:%s%s %s", BOLD, RED, RESET, ITALIC, get_wm());
     snprintf(shell_info, MAX_OUTPUT_LEN, "%s%ssh:%s%s %s", BOLD, GREEN, RESET, ITALIC, get_shell());
-    snprintf(linux_info, MAX_OUTPUT_LEN, "%s%sver:%s%s %s", BOLD, YELLOW, RESET, ITALIC, get_linux_version());
-    snprintf(res_info, MAX_OUTPUT_LEN, "%s%sres:%s%s %s", BOLD, BLUE, RESET, ITALIC, get_resolution());
+    snprintf(linux_info, MAX_OUTPUT_LEN, "%s%svr:%s%s %s", BOLD, YELLOW, RESET, ITALIC, get_linux_version());
+    snprintf(res_info, MAX_OUTPUT_LEN, "%s%srs:%s%s %s", BOLD, BLUE, RESET, ITALIC, get_resolution());
 
     char *lines[] = {wm_info, shell_info, linux_info, res_info};
 
